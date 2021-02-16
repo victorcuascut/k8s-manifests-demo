@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/CSXGIT/k8s-manifests.git
+    repoURL: https://github.com/victorcuascut/k8s-manifests-demo.git
     targetRevision: master
     path: environments/qa-cluster/performance
   destination:
