@@ -5,8 +5,8 @@ commonLabels:
   env: dev-stable
 resources:
 - namespace.yaml
-- ../../../applications/sample-site
-- ../../../applications/sample-site-2
+# - ../../../applications/sample-site
+# - ../../../applications/sample-site-2
 
 
 images:

@@ -5,7 +5,7 @@ commonLabels:
   env: performance
 resources:
 - namespace.yaml
-- ../../../applications/sample-site
+# - ../../../applications/sample-site
 
 
 images:
