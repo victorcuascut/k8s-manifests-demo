@@ -11,4 +11,4 @@ resources:
 images:
 - name: victorcuascut/sample-site
   newName: victorcuascut/sample-site
-  newTag: "v1.0"
+  newTag: "v2.0"
