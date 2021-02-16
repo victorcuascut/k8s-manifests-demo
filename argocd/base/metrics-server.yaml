@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/victorcuascut/k8s-manifests-demo.git
     targetRevision: master
-    path: metrics-server/base
+    path: common-services/metrics-server/base
   destination:
     server: https://kubernetes.default.svc
     namespace: kube-system
