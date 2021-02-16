@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: production
+  name: pre-prod
   namespace: argocd
   annotations:
     argocd.argoproj.io/sync-wave: "0"
@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/victorcuascut/k8s-manifests-demo.git
     targetRevision: master
-    path: environments/production-cluster/production
+    path: environments/qa-cluster/pre-prod
   destination:
     server: https://kubernetes.default.svc
     namespace: kube-system
