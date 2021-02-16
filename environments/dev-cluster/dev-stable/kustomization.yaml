@@ -5,15 +5,15 @@ commonLabels:
   env: dev-stable
 resources:
 - namespace.yaml
-# - ../../../applications/sample-site
+- ../../../applications/sample-site
 # - ../../../applications/sample-site-2
 
 
 images:
 - name: victorcuascut/sample-site
   newName: victorcuascut/sample-site
-  newTag: "v2.0"
-
-- name: victorcuascut/sample-site-2
-  newName: victorcuascut/sample-site-2
   newTag: "v1.0"
+
+# - name: victorcuascut/sample-site-2
+#   newName: victorcuascut/sample-site-2
+#   newTag: "v1.0"
