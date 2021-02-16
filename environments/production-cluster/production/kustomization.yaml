@@ -5,7 +5,7 @@ commonLabels:
   env: production
 resources:
 - namespace.yaml
-# - ../../../applications/sample-site
+- ../../../applications/sample-site
 
 images:
 - name: victorcuascut/sample-site
