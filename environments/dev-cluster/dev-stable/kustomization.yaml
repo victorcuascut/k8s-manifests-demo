@@ -6,14 +6,14 @@ commonLabels:
 resources:
 - namespace.yaml
 - ../../../applications/sample-site
-# - ../../../applications/sample-site-2
+- ../../../applications/sample-site-2
 
 
 images:
 - name: victorcuascut/sample-site
   newName: victorcuascut/sample-site
-  newTag: "v1.0"
+  newTag: "v2.0"
 
-# - name: victorcuascut/sample-site-2
-#   newName: victorcuascut/sample-site-2
-#   newTag: "v1.0"
+- name: victorcuascut/sample-site-2
+  newName: victorcuascut/sample-site-2
+  newTag: "v1.0"
