@@ -6,3 +6,9 @@ commonLabels:
 resources:
 - namespace.yaml
 - ../../../applications/sample-site
+
+
+images:
+- name: victorcuascut/sample-site
+  newName: victorcuascut/sample-site
+  newTag: "v1.0"
