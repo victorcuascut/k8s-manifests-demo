@@ -18,3 +18,6 @@ $ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/
  ```
  $ kubectl get pods -n argocd -l app.kubernetes.io/name=argocd-server -o name | cut -d'/' -f 2
  ```
+
+# Argo CD config
+https://github.com/victorcuascut/k8s-manifests-demo

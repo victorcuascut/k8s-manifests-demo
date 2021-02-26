@@ -5,9 +5,9 @@ commonLabels:
   env: pre-prod
 resources:
 - namespace.yaml
-# - ../../../applications/sample-site
+- ../../../applications/sample-site
 
-# images:
-# - name: victorcuascut/sample-site
-#   newName: victorcuascut/sample-site
-#   newTag: "v2.0"
+images:
+- name: victorcuascut/sample-site
+  newName: victorcuascut/sample-site
+  newTag: "v2.0"
